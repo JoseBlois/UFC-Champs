@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1000px;
+    background-color: whitesmoke;
+    margin: auto;
+    font-family: sans-serif;
+}
+.mainheader{
+    width: 100%;
+    background-color: white;
+}
+.logo a img{
+    margin: auto;
+    width: 100%;
+}
+.navbar{
+    background: linear-gradient(grey , black);
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar ul li{
+    display: contents;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 30px
+}
+.navbar ul li a:hover{
+    background-color: black;
+}
+.champions{
+    float: left;
+    width: 700px;
+    margin: 20px 0px;
+}
+.champions header{
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    background: linear-gradient(grey , black);
+    color: white;
+    width: 100%;
+}
+/* .card-container{
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+} */
+.champions article{
+    float: left;
+    margin: 0px 10px;
+    width: 30%;
+    margin-top:35px;
+    background-color: #dddddd;
+    border-radius: 10px;
+}
+.champions article:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 30%);
+}
+.champions article figure{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card-img{
+    width: 100%;
+}
+.fcap{
+    font-weight: bold;
+    background: linear-gradient(grey , black);
+    color: white;
+    text-align: center;
+}
+.details{
+    font-weight: bold;
+    font-size: 14px;
+    margin:5px 5px;
+}
+.events{
+    width: 250px;
+    margin: 20px 0px;
+    float: right;
+    border-top: none;
+    border-radius: 5px;
+}
+.events > header{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    background: linear-gradient(grey , black);
+    color: white;
+
+}
+.events-article{
+    border: solid 3px black;
+    border-top: none;
+}
+.events-article ul{
+    list-style: none;
+}
+.events-article ul li{
+    display: block;
+    text-align: center;
+    margin: 20px 0px;
+}
+.evt-link{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    border-bottom: solid 1px grey;
+    border-top: solid 1px grey;
+}
+.evt-link:hover{
+    background-color: black;
+    color: white;
+}
+.clearfix{
+    clear: both;
+}
+footer{
+    margin: 20px 0px;
+    background-color: grey;
+    text-align: center;
+    color: white;
+}
