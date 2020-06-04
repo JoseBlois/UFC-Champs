@@ -50,23 +50,23 @@ body{
     color: white;
     width: 100%;
 }
-/* .card-container{
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; 
-} */
-.champions article{
-    float: left;
+ .card-container{
+    width:100%;
+    margin: auto
+} 
+.card{
+    float: left; 
     margin: 0px 10px;
     width: 30%;
+    height: 250px;
     margin-top:35px;
     background-color: #dddddd;
     border-radius: 10px;
 }
-.champions article:hover{
+.card:hover{
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 30%);
 }
-.champions article figure{
+.card figure{
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -126,6 +126,30 @@ body{
 }
 .clearfix{
     clear: both;
+}
+.style-viewer{
+    width: 250px;
+    margin: 20px 0px;
+    float: right;
+    background-color: grey;
+    border: solid 2px black;
+}
+.style-viewer header{
+    text-align: center;
+    color: white;
+}
+.style-viewer header .info{
+    color: black;
+    padding: 5px;
+    font-size: 10px;
+    background-color: lightgray;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+}
+#drag-target{
+    min-height: 200px;
+    width: 100%;
+    background-color: white;
 }
 footer{
     margin: 20px 0px;
