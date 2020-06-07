@@ -179,6 +179,23 @@ body{
     font-size: 50px;
     color: white;
 }
+#drag-target-wish{
+    padding: 10px 0px;
+}
+#drag-target-wish ul {
+    list-style: none;
+}
+#drag-target-wish ul > li{
+    border-bottom: solid 2px white;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+#drag-target-wish ul > li:hover{
+    background: linear-gradient(to right, red ,black );
+    cursor: pointer;
+}
+
 footer{
     margin: 20px 0px;
     background-color: grey;
