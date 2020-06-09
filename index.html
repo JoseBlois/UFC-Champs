@@ -20,13 +20,13 @@
                 <li><a href="">145lbs</a></li>
                 <li><a href="">155lbs</a></li>
                 <li><a href="">170lbs</a></li>
-                <li><a href="">180lbs</a></li>
+                <li><a href="middleweight.html">180lbs</a></li>
                 <li><a href="">190lbs</a></li>
                 <li><a href="">205+lbs</a></li>
             </ul>
         </nav>
     </header>
-    <section class="champions">
+    <section class="champions main">
         <header><h2>UFC champions</h2></header>
         <article id="125" class="card" data-name="Henry Cejudo" draggable="true">
             <figure>
@@ -191,30 +191,31 @@
     </section>
     <aside class="events">
         <header>Upcoming Events</header>
-        <article class="events-article">
+        <section class="events-article">
             <ul>
                 <li><a class="evt-link" href="">UFC 250</a></li>
                 <li><a class="evt-link" href="">UFC 250</a></li>
                 <li><a class="evt-link" href="">UFC 250</a></li>
             </ul>
-        </article>
+        </section >
+        <section class="style-viewer">
+            <header><h2>Style Viewer</h2>
+                <p class="info">Drag a fighter here to know his style of fighting</p>
+            </header>
+            <div id="drag-target-style" class="drag-target">
+                <p id="text-style"></p>
+            </div>
+        </section>
+        <section class="style-viewer">
+            <header><h2>Fighter's wish list</h2>
+                <p class="info">Drag a fighter here to get a notification when they sign up for an event</p>
+            </header>
+            <div id="drag-target-wish" class="drag-target">
+                <ul></ul>
+            </div>
+        </section>
     </aside>
-    <section class="style-viewer">
-        <header><h2>Style Viewer</h2>
-            <p class="info">Drag a fighter here to know his style of fighting</p>
-        </header>
-        <div id="drag-target-style" class="drag-target">
-            <p id="text-style"></p>
-        </div>
-    </section>
-    <section class="style-viewer">
-        <header><h2>Fighter's wish list</h2>
-            <p class="info">Drag a fighter here to get a notification when they sign up for an event</p>
-        </header>
-        <div id="drag-target-wish" class="drag-target">
-            <ul></ul>
-        </div>
-    </section>
+   
     <div class="clearfix"></div>
     <footer>
          <p>The content on this page is own by UFC &copy;</p>

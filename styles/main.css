@@ -6,7 +6,7 @@
 body{
     width: 1000px;
     background-color: whitesmoke;
-    margin: auto;
+    margin: 0px auto;
     font-family: sans-serif;
 }
 .mainheader{
@@ -37,7 +37,7 @@ body{
 .navbar ul li a:hover{
     background-color: black;
 }
-.champions{
+.main{
     float: left;
     width: 700px;
     margin: 20px 0px;
@@ -201,4 +201,55 @@ footer{
     background-color: grey;
     text-align: center;
     color: white;
+}
+.champ-desc h1{
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    background: linear-gradient(grey , black);
+    color: white;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.champ-desc h2{
+    font-weight: bold;
+    font-size: 30px;
+    background: linear-gradient(grey , black);
+    color: white;
+    width: 100%;
+    margin: 10px 0px ;
+}
+.champ-desc h3{
+    font-weight: bold;
+    font-size: 20px;
+    background: linear-gradient(grey , black);
+    color: white;
+    width: 100%;
+    margin: 10px 0px;
+}
+.champ-desc p {
+    font-size: 20px;
+    line-height: 2rem;
+}
+.record{
+    background-color: black;
+    color: white;
+    width: 100%;
+    
+}
+.record th{
+    background-color: grey;
+}
+.result{
+    text-align: center;
+}
+.win{
+    background-color: lightgreen;
+}
+.loss{
+    background-color: #ff5555;
+}
+.opponent{
+    text-align: center;
+    padding: 10px;
 }
