@@ -67,11 +67,23 @@ var addFighter = function (id){
     var element = document.getElementById(id);
     var name = element.getAttribute('data-name');
 
-    var fighter = new Fighter(name);
-    currentList.addFighter(fighter);
-
+    if (!checkList(name)){
+     var fighter = new Fighter(name);
+     currentList.addFighter(fighter);
+    }else{
+        alert("Fighter already listed");
+    }
     UpdateListUI()
 
+}
+var checkList = function(name){
+    for (var i =0; i < currentList.fighters.length; i++){
+        // console.log(currentList.fighters[i]);
+        if(name === currentList.fighters[i].name){
+            return true
+        }
+    }
+    return false
 }
 function createEmptyList(){
     localStorage.clear();
